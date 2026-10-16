@@ -178,7 +178,7 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/205853463?u=ed036b8c7251cfec46edb8935f303b6ee8e4c834&v=4"
    },
    "meGusta": 0,
-   "comentarios": 3,
+   "comentarios": 1,
    "answer": null,
    "reactionGroups": [
     {
@@ -239,16 +239,16 @@
     }
    ],
    "comments": {
-    "totalCount": 3,
+    "totalCount": 1,
     "nodes": [
      {
-      "id": "DC_kwDOVMdtfM4BIZV6",
+      "id": "DC_kwDOVMdtfM4BIZ_7",
       "author": {
        "login": "ortiz1022009",
        "avatarUrl": "https://avatars.githubusercontent.com/u/205853463?u=ed036b8c7251cfec46edb8935f303b6ee8e4c834&v=4"
       },
-      "createdAt": "2026-10-16T16:49:29Z",
-      "body": "hoal"
+      "createdAt": "2026-10-16T18:46:58Z",
+      "body": "?"
      }
     ]
    }
