@@ -1,4 +1,4 @@
-# Índice público de la Stoa (0.7.3.b). Vive en Hefesto-Agent/stoa como
+# Índice público de la Stoa (0.7.3.c). Vive en Hefesto-Agent/stoa como
 # .github/workflows/indice.yml. Cada vez que se crea, edita o borra un hilo o un comentario (o cada
 # hora) vuelca las últimas publicaciones de TODAS las categorías en obras.json, que Hefesto lee sin
 # cuenta de GitHub (el muro, los grupos, el Tablón y Ayuda salen de aquí para quien solo mira).
@@ -26,7 +26,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh api graphql -f query='query { repository(owner: "Hefesto-Agent", name: "stoa") { discussions(first: 100, orderBy: {field: CREATED_AT, direction: DESC}) { nodes { id number url title body createdAt category { slug name } author { login avatarUrl } reactions(content: THUMBS_UP) { totalCount } answer { id } comments(first: 1) { totalCount nodes { id author { login avatarUrl } createdAt body } } } } } }' > crudo.json
+          gh api graphql -f query='query { repository(owner: "Hefesto-Agent", name: "stoa") { discussions(first: 100, orderBy: {field: CREATED_AT, direction: DESC}) { nodes { id number url title body createdAt category { slug name } author { login avatarUrl } reactions(content: THUMBS_UP) { totalCount } answer { id } reactionGroups { content viewerHasReacted reactors { totalCount } } comments(first: 1) { totalCount nodes { id author { login avatarUrl } createdAt body } } } } } }' > crudo.json
           python3 - <<'PY'
           import json
           d = json.load(open("crudo.json"))["data"]["repository"]["discussions"]["nodes"]
@@ -39,6 +39,7 @@ jobs:
                   "createdAt": n["createdAt"], "category": n.get("category") or {}, "author": n["author"],
                   "meGusta": n["reactions"]["totalCount"], "comentarios": n["comments"]["totalCount"],
                   "answer": n.get("answer"),
+                  "reactionGroups": n.get("reactionGroups") or [],
                   "comments": {"totalCount": n["comments"]["totalCount"], "nodes": n["comments"]["nodes"]},
               })
           json.dump({"publicaciones": pubs}, open("obras.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
