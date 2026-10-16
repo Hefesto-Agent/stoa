@@ -1,6 +1,87 @@
 {
  "publicaciones": [
   {
+   "id": "D_kwDOVMdtfM4AqILD",
+   "number": 8,
+   "url": "https://github.com/Hefesto-Agent/stoa/discussions/8",
+   "title": "MAÑANA NUEVA VERSION",
+   "body": "<!-- hefesto-stoa\ntipo: encuesta\ngrupo: juegos\nopciones: NUEVAS HERRAMIENTAS EN AGORA | UN NUEVO TIPO DE PROYECTO ❤️‍🔥 | NADA\nfin: 2026-10-17T22:50:04Z\nhashtags: hefesto oficial nuevaversion sigueme 1_0\n-->\n\n¿QUE QUIERES QUE INCLUYA EN ESGA NUEVA VERSION?  #hefesto #oficial #nuevaversion #sigueme #1_0\n\n- ❤️ NUEVAS HERRAMIENTAS EN AGORA\n- 🎉 UN NUEVO TIPO DE PROYECTO ❤️‍🔥\n- 😄 NADA\n\n_Vota con la reacción de cada opción (desde Hefesto, tocando)._\n",
+   "createdAt": "2026-10-16T22:51:29Z",
+   "category": {
+    "slug": "polls",
+    "name": "Polls"
+   },
+   "author": {
+    "login": "ortiz1022009",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/205853463?u=ed036b8c7251cfec46edb8935f303b6ee8e4c834&v=4"
+   },
+   "meGusta": 0,
+   "comentarios": 0,
+   "answer": null,
+   "reactionGroups": [
+    {
+     "content": "THUMBS_UP",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "THUMBS_DOWN",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "LAUGH",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "HOORAY",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "CONFUSED",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "HEART",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "ROCKET",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "EYES",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    }
+   ],
+   "comments": {
+    "totalCount": 0,
+    "nodes": []
+   }
+  },
+  {
    "id": "D_kwDOVMdtfM4AqH_m",
    "number": 5,
    "url": "https://github.com/Hefesto-Agent/stoa/discussions/5",
