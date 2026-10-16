@@ -1,6 +1,87 @@
 {
  "publicaciones": [
   {
+   "id": "D_kwDOVMdtfM4AqH_m",
+   "number": 5,
+   "url": "https://github.com/Hefesto-Agent/stoa/discussions/5",
+   "title": "NUEVA HERRAMIENTA PROXIMAMENTE",
+   "body": "<!-- hefesto-stoa\ntipo: tablon\ngrupo: tablon\n-->\n\nherramienta de desarrollo práctico próximamente llegará a HEFESTO en su v..3.4.\n",
+   "createdAt": "2026-10-16T20:02:57Z",
+   "category": {
+    "slug": "tablón",
+    "name": "Tablón"
+   },
+   "author": {
+    "login": "ortiz1022009",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/205853463?u=ed036b8c7251cfec46edb8935f303b6ee8e4c834&v=4"
+   },
+   "meGusta": 0,
+   "comentarios": 0,
+   "answer": null,
+   "reactionGroups": [
+    {
+     "content": "THUMBS_UP",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "THUMBS_DOWN",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "LAUGH",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "HOORAY",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "CONFUSED",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "HEART",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "ROCKET",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "EYES",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    }
+   ],
+   "comments": {
+    "totalCount": 0,
+    "nodes": []
+   }
+  },
+  {
    "id": "D_kwDOVMdtfM4AqH_P",
    "number": 4,
    "url": "https://github.com/Hefesto-Agent/stoa/discussions/4",
