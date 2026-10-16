@@ -1,15 +1,15 @@
 {
  "publicaciones": [
   {
-   "id": "D_kwDOVMdtfM4AqH5u",
-   "number": 3,
-   "url": "https://github.com/Hefesto-Agent/stoa/discussions/3",
-   "title": "mi primero js",
-   "body": "<!-- hefesto-stoa\ntipo: obra\nimagenes: https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256.jpg https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256-1.jpg https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256-2.jpg\nmotor: opencozd\nmodelo: wimen\npiezas: godt\n-->\n\n![captura](https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256.jpg)\n![captura](https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256-1.jpg)\n![captura](https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256-2.jpg)\n\nojojojo uno dos r\n\n_Hecho con Hefesto: opencozd · wimen · godt_\n",
-   "createdAt": "2026-10-16T18:58:45Z",
+   "id": "D_kwDOVMdtfM4AqH_P",
+   "number": 4,
+   "url": "https://github.com/Hefesto-Agent/stoa/discussions/4",
+   "title": "¿QUE FUNCION QUIERES PARA LA 0.7.8?",
+   "body": "<!-- hefesto-stoa\ntipo: encuesta\ngrupo: juegos\nopciones: Conectores | Multifunción | más herramientas déjalo en los comentarios\nfin: 2026-10-17T19:55:58Z\n-->\n\nDIME YA QUE QUIERES VER EN LA NUEVA VERSIÓN 🫪🫪\n\n- ❤️ Conectores\n- 🎉 Multifunción\n- 😄 más herramientas déjalo en los comentarios\n\n_Vota con la reacción de cada opción (desde Hefesto, tocando)._\n",
+   "createdAt": "2026-10-16T19:57:23Z",
    "category": {
-    "slug": "obras",
-    "name": "Obras"
+    "slug": "polls",
+    "name": "Polls"
    },
    "author": {
     "login": "ortiz1022009",
