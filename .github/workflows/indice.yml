@@ -1,0 +1,53 @@
+# Índice público de la Stoa (0.7.3.b). Vive en Hefesto-Agent/stoa como
+# .github/workflows/indice.yml. Cada vez que se crea, edita o borra un hilo o un comentario (o cada
+# hora) vuelca las últimas publicaciones de TODAS las categorías en obras.json, que Hefesto lee sin
+# cuenta de GitHub (el muro, los grupos, el Tablón y Ayuda salen de aquí para quien solo mira).
+name: Índice de obras
+on:
+  discussion:
+    types: [created, edited, deleted, category_changed, transferred]
+  discussion_comment:
+    types: [created, deleted]
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  discussions: read
+concurrency:
+  group: indice
+  cancel-in-progress: true
+jobs:
+  indice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Volcar obras.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api graphql -f query='query { repository(owner: "Hefesto-Agent", name: "stoa") { discussions(first: 100, orderBy: {field: CREATED_AT, direction: DESC}) { nodes { id number url title body createdAt category { slug name } author { login avatarUrl } reactions(content: THUMBS_UP) { totalCount } answer { id } comments(first: 1) { totalCount nodes { id author { login avatarUrl } createdAt body } } } } } }' > crudo.json
+          python3 - <<'PY'
+          import json
+          d = json.load(open("crudo.json"))["data"]["repository"]["discussions"]["nodes"]
+          pubs = []
+          for n in d:
+              if not n.get("author"):
+                  continue
+              pubs.append({
+                  "id": n["id"], "number": n["number"], "url": n["url"], "title": n["title"], "body": n["body"],
+                  "createdAt": n["createdAt"], "category": n.get("category") or {}, "author": n["author"],
+                  "meGusta": n["reactions"]["totalCount"], "comentarios": n["comments"]["totalCount"],
+                  "answer": n.get("answer"),
+                  "comments": {"totalCount": n["comments"]["totalCount"], "nodes": n["comments"]["nodes"]},
+              })
+          json.dump({"publicaciones": pubs}, open("obras.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          print(len(pubs), "publicaciones")
+          PY
+          rm -f crudo.json
+      - name: Publicar
+        run: |
+          git config user.name "stoa-indice"
+          git config user.email "stoa-indice@users.noreply.github.com"
+          git add obras.json
+          git diff --cached --quiet && echo "sin cambios" || { git commit -m "Índice de obras"; git push; }
