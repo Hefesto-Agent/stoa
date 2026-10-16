@@ -1,6 +1,29 @@
 {
  "publicaciones": [
   {
+   "id": "D_kwDOVMdtfM4AqH5u",
+   "number": 3,
+   "url": "https://github.com/Hefesto-Agent/stoa/discussions/3",
+   "title": "mi primero js",
+   "body": "<!-- hefesto-stoa\ntipo: obra\nimagenes: https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256.jpg https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256-1.jpg https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256-2.jpg\nmotor: opencozd\nmodelo: wimen\npiezas: godt\n-->\n\n![captura](https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256.jpg)\n![captura](https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256-1.jpg)\n![captura](https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/mi-primero-js-1792177032256-2.jpg)\n\nojojojo uno dos r\n\n_Hecho con Hefesto: opencozd · wimen · godt_\n",
+   "createdAt": "2026-10-16T18:58:45Z",
+   "category": {
+    "slug": "obras",
+    "name": "Obras"
+   },
+   "author": {
+    "login": "ortiz1022009",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/205853463?u=ed036b8c7251cfec46edb8935f303b6ee8e4c834&v=4"
+   },
+   "meGusta": 0,
+   "comentarios": 0,
+   "answer": null,
+   "comments": {
+    "totalCount": 0,
+    "nodes": []
+   }
+  },
+  {
    "id": "D_kwDOVMdtfM4AqH4u",
    "number": 2,
    "url": "https://github.com/Hefesto-Agent/stoa/discussions/2",
