@@ -1,6 +1,87 @@
 {
  "publicaciones": [
   {
+   "id": "D_kwDOVMdtfM4AqIKH",
+   "number": 7,
+   "url": "https://github.com/Hefesto-Agent/stoa/discussions/7",
+   "title": "Pruebas",
+   "body": "<!-- hefesto-stoa\ntipo: obra\ngrupo: apps\nimagenes: https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/pruebas-1792190100767.jpg\n-->\n\n![captura](https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/pruebas-1792190100767.jpg)\n\npss\n",
+   "createdAt": "2026-10-16T22:36:27Z",
+   "category": {
+    "slug": "obras",
+    "name": "Obras"
+   },
+   "author": {
+    "login": "ortiz1022009",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/205853463?u=ed036b8c7251cfec46edb8935f303b6ee8e4c834&v=4"
+   },
+   "meGusta": 0,
+   "comentarios": 0,
+   "answer": null,
+   "reactionGroups": [
+    {
+     "content": "THUMBS_UP",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "THUMBS_DOWN",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "LAUGH",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "HOORAY",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "CONFUSED",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "HEART",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "ROCKET",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    },
+    {
+     "content": "EYES",
+     "viewerHasReacted": false,
+     "reactors": {
+      "totalCount": 0
+     }
+    }
+   ],
+   "comments": {
+    "totalCount": 0,
+    "nodes": []
+   }
+  },
+  {
    "id": "D_kwDOVMdtfM4AqH_m",
    "number": 5,
    "url": "https://github.com/Hefesto-Agent/stoa/discussions/5",
