@@ -1,0 +1,60 @@
+{
+ "publicaciones": [
+  {
+   "id": "D_kwDOVMdtfM4AqH4u",
+   "number": 2,
+   "url": "https://github.com/Hefesto-Agent/stoa/discussions/2",
+   "title": "hola",
+   "body": "<!-- hefesto-stoa\ntipo: texto\nimagenes: https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/hola-1792176530363.jpg https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/hola-1792176530363-1.jpg\nantes-despues: si\n-->\n\n![antes](https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/hola-1792176530363.jpg)\n![después](https://raw.githubusercontent.com/ortiz1022009/hefesto-obras/main/hola-1792176530363-1.jpg)\n\n???\n",
+   "createdAt": "2026-10-16T18:50:21Z",
+   "category": {
+    "slug": "obras",
+    "name": "Obras"
+   },
+   "author": {
+    "login": "ortiz1022009",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/205853463?u=ed036b8c7251cfec46edb8935f303b6ee8e4c834&v=4"
+   },
+   "meGusta": 0,
+   "comentarios": 0,
+   "answer": null,
+   "comments": {
+    "totalCount": 0,
+    "nodes": []
+   }
+  },
+  {
+   "id": "D_kwDOVMdtfM4AqHg9",
+   "number": 1,
+   "url": "https://github.com/Hefesto-Agent/stoa/discussions/1",
+   "title": "proyecto-5",
+   "body": "<!-- hefesto-obra\ntipo: videojuego\nmotor: Hefesto (API)\nmodelo: ksiso\npiezas: isisossi\n-->\n\n**Qué le pedí al agente**\n\n> jsjsj\n\njwiwiwo\n\n_Hecho con Hefesto: Hefesto (API) · ksiso · isisossi_\n",
+   "createdAt": "2026-10-16T16:47:20Z",
+   "category": {
+    "slug": "obras",
+    "name": "Obras"
+   },
+   "author": {
+    "login": "ortiz1022009",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/205853463?u=ed036b8c7251cfec46edb8935f303b6ee8e4c834&v=4"
+   },
+   "meGusta": 0,
+   "comentarios": 3,
+   "answer": null,
+   "comments": {
+    "totalCount": 3,
+    "nodes": [
+     {
+      "id": "DC_kwDOVMdtfM4BIZV6",
+      "author": {
+       "login": "ortiz1022009",
+       "avatarUrl": "https://avatars.githubusercontent.com/u/205853463?u=ed036b8c7251cfec46edb8935f303b6ee8e4c834&v=4"
+      },
+      "createdAt": "2026-10-16T16:49:29Z",
+      "body": "hoal"
+     }
+    ]
+   }
+  }
+ ]
+}
