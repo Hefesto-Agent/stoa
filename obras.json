@@ -187,7 +187,7 @@
     "login": "ortiz1022009",
     "avatarUrl": "https://avatars.githubusercontent.com/u/205853463?u=ed036b8c7251cfec46edb8935f303b6ee8e4c834&v=4"
    },
-   "meGusta": 0,
+   "meGusta": 1,
    "comentarios": 0,
    "answer": null,
    "reactionGroups": [
@@ -195,7 +195,7 @@
      "content": "THUMBS_UP",
      "viewerHasReacted": false,
      "reactors": {
-      "totalCount": 0
+      "totalCount": 1
      }
     },
     {
